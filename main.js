@@ -10,7 +10,7 @@ for (let i=0; ListaDeTeclas.length; i++){
     const tecla = ListaDeTeclas[i];
     const instrumento = tecla.classList[1];
     const idAudio = `#som_${instrumento}`;
-    console.log(idAudio);
+    
 
     tecla.onclick = function() {
         tocaSom(idAudio);
